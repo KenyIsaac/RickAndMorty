@@ -1,0 +1,79 @@
+.fondo {
+    background-image: url("https://c.tenor.com/3hIpHNbcVf4AAAAC/rick-and-morty-rick.gif");
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: 1550px;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.buscador {
+    position: absolute;
+    right: 35px;
+}
+
+
+.card-container{
+    margin: 60px 40px 40px 40px;
+    background-color: #2ecc0e;  
+}
+
+.head-container{
+    background-color: #2288e7;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .buscador{
+        right: 32%;
+    }
+}
+
+@media screen and (max-width: 549px) {
+    .buscador{
+        right: 25%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .buscador{
+        right: 17%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card-container{
+        margin: 40px 10px 20px 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .buscador{
+        right: 13%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .buscador{
+        right: 12%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .card-container{
+        margin: 40px 0 10px 7px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .buscador{
+        right: 8%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .buscador{
+        right: 1%;
+    }
+}
